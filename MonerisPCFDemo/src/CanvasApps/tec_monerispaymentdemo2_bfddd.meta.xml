@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>tec_monerispaymentdemo2_bfddd</Name>
+  <AppVersion>2022-01-18T03:34:24Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21123.25.0</CreatedByClientVersion>
+  <MinClientVersion>3.21123.25.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"69138b35-3376-41c8-b64b-1bc324713e85","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21123.25","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(250, 155, 112, 1)</BackgroundColor>
+  <DisplayName>Moneris Payment Demo</DisplayName>
+  <Description>Sample app to demonstrate use of Moneris payment PCF component</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"7e86544f-928d-443b-9a7e-a8df0e0042f6":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["ProcessPayment"],"dependencies":["38a5dc9e-ac6c-4cf1-b140-32ae1522b624"],"dependents":[],"parameterHints":{"workflowName":{"value":"c903bb6a-cbb6-446a-88ab-a24372a76871"},"workflowEntityId":{"value":"f7160a6b-b760-ec11-8f8f-000d3ad03cbf"},"38a5dc9e-ac6c-4cf1-b140-32ae1522b624":{"value":"shared_commondataserviceforapps"}},"parameterHintsV2":{"workflowName":{"value":"c903bb6a-cbb6-446a-88ab-a24372a76871"},"workflowEntityId":{"value":"f7160a6b-b760-ec11-8f8f-000d3ad03cbf"},"shared_commondataserviceforapps":{"value":"38a5dc9e-ac6c-4cf1-b140-32ae1522b624"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"38a5dc9e-ac6c-4cf1-b140-32ae1522b624":{"id":"/providers/microsoft.powerapps/apis/shared_commondataserviceforapps","displayName":"Microsoft Dataverse","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1513/1.0.1513.2549/commondataserviceforapps/icon.png","dataSources":[],"dependencies":[],"dependents":["7e86544f-928d-443b-9a7e-a8df0e0042f6"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{},"components":[{"componentName":"CustomControl","identifier":"tec_Technomancy.MonerisPCF","identifierType":"LogicalName","capabilities":{"pcfExternalServiceUsageAllowed":false}}]}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"dependencyid":"","logicalname":"tec_Technomancy.MonerisPCF","componenttype":66,"componenttypeplatformname":"CustomControl"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/tec_monerispaymentdemo2_bfddd_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/tec_monerispaymentdemo2_bfddd_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
