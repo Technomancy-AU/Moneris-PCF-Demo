@@ -11,4 +11,4 @@ In order to use this solution you need:
 2. Download an unmanaged package file from the "Export" folder, e.g. "MonerisPCFDemo_1_0_0_13.zip"
 3. Import the downloaded package into the environment where you have the Moneris PCF installed
 4. Follow the set up instructions available here: https://technomancy.com.au/docs/moneris-payments/set-up/demo-app-installation/  
-5. Refer to teh Documentation here https://technomancy.com.au/docs/moneris-payments/ or contact us on experts@technomancy.com.au 
+5. Refer to the Documentation here https://technomancy.com.au/docs/moneris-payments/ or contact us on experts@technomancy.com.au 
